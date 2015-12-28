@@ -1,0 +1,30 @@
+{
+  "name": "bycokit",
+  "authors": [
+    "Magdalena Noffke <magdalena.noffke@googlemail.com>"
+  ],
+  "description": "landingpage for bycokit",
+  "main": "",
+  "moduleType": [
+    "amd"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "skel": "3.0.0",
+    "angular-translate": "~2.8.1",
+    "angular": "~1.4.8",
+    "angular-ui-router": "~0.2.15",
+    "angular-translate-loader-url": "~2.8.1",
+    "angular-translate-loader-static-files": "~2.8.1"
+  }
+}

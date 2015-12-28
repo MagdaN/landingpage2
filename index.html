@@ -1,0 +1,212 @@
+<!DOCTYPE HTML>
+<!--
+	Photon by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html ng-app="app" ng-controller="appCtrl">
+	<head>
+		<title>byCoKit</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+	</head>
+	<body>
+
+		<!-- Header -->
+			<section id="header">
+			        <video id="header_video" autoplay="" loop="" poster="videos/leanstartup.jpg">
+			            <source src="videos/leanstartup.mp4" type="video/mp4">Your browser does not support the video tag. I suggest you upgrade your browser.
+			        </video>
+
+			        <div id="header_text">
+						<img src="images/Logo_200.png">
+						<h1><span class="by">by</span> <span class="cokit">CoKit</span></h1>
+						<h4> {{ "WE_CREATE_COURSES_TOGETHER" | translate }} </h2>
+						<p></p>
+						<ul class="actions">
+							<li><a href="#one" class="button scrolly">{{ "DISCOVER" | translate }}</a></li>
+							<li><a href="#five" data-ng-click="toggleForm()" class="button scrolly">{{ "SIGN_UP" | translate }}</a></li>
+						</ul>
+					</div>
+			</section>
+
+		<!-- One -->
+			<section id="one" class="main style1 special">
+				<div class="container">
+					<div class="row 150%">
+						<div class="12u 12u$(medium)">
+							<header class="major">
+								<h2>{{ "DESCRIPTION_LINE_1" | translate }}</br> {{ "DESCRIPTION_LINE_2" | translate }} <span class="by">by</span><span class="cokit">CoKit</span>  </br><span class="by">{{ "INSPIRE_DRAFT_EXECUTE_REFINE" | translate }}</span> </h2>
+								<!--</br><span class="by">inspire – draft – execute – refine </span>-->
+							</header>
+						</div>
+					</div>
+				</div>
+			</section>
+
+		<!-- Two A-->
+			<section id="two" class="main styleA">
+				<div class="container">
+				<div class="row 150%">
+					<div class="5u">
+				<span class="image fit"><img src="images/inspire.png" alt="" /></span>
+				</div>
+				<div class="7u">
+							<header class="major">
+								<h2>{{ "INSPIRE_SECTION_TITLE" | translate }}<span class="by">by</span><span class="cokit">CoKit</span></h2>
+							</header>
+							<p>{{ "INSPIRE_SECTION_BODY" | translate }}</p>
+				</div>
+				</div>
+				</div>
+			</section>
+					<!-- Two B-->
+			<section id="two" class="main styleB">
+				<div class="container">
+				<div class="row 150%">
+				<div class="7u">
+							<header class="major">
+								<h2>{{ "DRAFT_SECTION_TITLE" | translate }} <span class="by">by</span><span class="cokit">CoKit</span></h2>
+							</header>
+							<p>{{ "DRAFT_SECTION_BODY" | translate }}</p>
+				</div>
+				<div class="5u">
+					<span class="image fit"><img src="images/draft.png" alt="" /></span>
+				</div>
+				</div>
+				</div>
+			</section>
+
+					<!-- Two C-->
+			<section id="three" class="main styleC">
+				<div class="container">
+				<div class="row 150%">
+							<div class="5u">
+							<span class="image fit"><img src="images/execution.png" alt="" /></span>
+							</div>
+							<div class="7u">
+							<header class="major">
+								<h2>{{ "EXECUTE_SECTION_TITLE" | translate }}<span class="by">by</span><span class="cokit">CoKit</span></h2>
+							</header>
+							<p>{{ "EXECUTE_SECTION_BODY" | translate }}</p>
+							</div>
+							</div>
+				</div>
+			</section>
+					<!-- Two D-->
+			<section id="four" class="main styleD">
+				<div class="container">
+				<div class="row 150%">
+				<div class="7u">
+							<header class="major">
+								<h2>{{ "REFINE_SECTION_TITLE" | translate }} <span class="by">by</span><span class="cokit">CoKit</span></h2>
+							</header>
+							<p>{{ "REFINE_SECTION_BODY" | translate }}</p>
+					</div>
+						<div class="5u medium">
+				<span class="image fit"><img src="images/refine.png"></span>
+				</div>
+					</div>
+				</div>
+			</section>
+
+
+
+			<!-- Four & QUESTIONS & FORM -->
+			<section id="five" class="main style6 special">
+				<div class="container">
+					<header class="major">
+						<h2>{{ "CALL_TO_ACTION_SECTION_TITLE" | translate }}</h2>
+					</header>
+					<p>{{ "CALL_TO_ACTION_SECTION_BODY" | translate }}</p>
+					<ul class="actions uniform">
+						<li><a data-ng-click="toggleForm();" class="button special">{{ "SIGN_UP" | translate }}</a></li>
+						<!--<li><a href="#" class="button">{{ "LEARN_MORE" | translate }}</a></li>-->
+					</ul>
+					<div data-ng-show="showForm" class="animate-show">
+						<iframe src="https://docs.google.com/forms/d/1994rkE37R2gWDjaIQTuPN_UV8YBHgM0K_xUZHVyDXv0/viewform?embedded=true" width="100%" height="500px" frameborder="0" marginheight="0" marginwidth="0">Wird geladen...</iframe>
+					</div>
+				</div>
+			</section>
+
+
+
+		<!-- Three -->
+			<section id="six" class="main style5 special">
+				<div class="container">
+					<header class="major">
+						<h2>{{ "ABOUT_US_SECTION_TITLE" | translate }}</h2>
+					</header>
+					<p>{{ "ABOUT_US_SECTION_BODY" | translate }}</p>
+					<div class="box alt">
+							<div class="row uniform 50%">
+								<div class="3u">
+									<span class="image fit">
+										<img src="images/Magda.jpg" alt="" />
+										Magdalena Noffke</br>
+										{{ "DEVELOPMENT" | translate }}
+									</span>
+								</div>
+								<div class="3u">
+									<span class="image fit">
+										<img src="images/Hannes.jpg" alt="" />
+										Hannes Rothe</br>
+										{{ "PROJECT_MANAGEMENT" | translate }}
+									</span>
+								</div>
+								<div class="3u">
+									<span class="image fit">
+										<img src="images/Charlotte.jpg" alt="" />
+										Charlotte Köhler</br>
+										{{ "DEVELOPMENT" | translate }}
+									</span>
+								</div>
+								<div class="3u">
+									<span class="image fit">
+										<img src="images/Solveig.jpg" alt="" />
+										Solveig Bier</br>
+										{{"MARKETING" | translate}}
+									</span>
+								</div>
+							</div>
+						</div>
+				</div>
+			</section>
+
+
+		<!-- Footer -->
+			<section id="footer">
+				<ul class="icons">
+					<li><a href="https://twitter.com/bycokit" target="_blank" class="icon alt fa-twitter"><span class="label">Twitter</span></a></li>
+					<li><a href="#" class="icon alt fa-facebook"><span class="label">Facebook</span></a></li>
+					<li><a href="#" class="icon alt fa-instagram"><span class="label">Instagram</span></a></li>
+					<li><a href="#" class="icon alt fa-github"><span class="label">GitHub</span></a></li>
+					<li><a href="#" class="icon alt fa-envelope"><span class="label">Email</span></a></li>
+				</ul>
+				<ul class="copyright">
+					<li>&copy; byCoKit</li>
+					<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					<li><a href="http://html5up.net">Impressum</a></li>
+				</ul>
+			</section>
+
+		<!-- Scripts -->
+			<script src="assets/js/lib/bower_components/jquery/dist/jquery.min.js"></script>
+			<script src="assets/js/lib/bower_components/skel/dist/skel.min.js"></script>
+			<script src="assets/js/lib/jquery.scrolly.min.js"></script>
+			<script src="assets/js/photon/util.js"></script>
+			<script src="assets/js/photon/main.js"></script>
+			<script src="assets/js/lib/bower_components/angular/angular.min.js"></script>
+			<script src="assets/js/lib/bower_components/angular-translate/angular-translate.min.js"></script>
+			<script src="assets/js/lib/bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
+			<script src="assets/js/lib/bower_components/angular-translate-loader-static-files/angular-translate-loader-static-files.min.js"></script>
+			<script src="assets/js/angular/app.js"></script>
+			<script src="assets/js/lib/bower_components/angular-animate/angular-animate.min.js"></script>
+			<script src="assets/js/angular/app.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+	</body>
+</html>
