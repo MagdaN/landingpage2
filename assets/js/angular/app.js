@@ -26,9 +26,6 @@ app.config(['$stateProvider', function($stateProvider) {
     $stateProvider.state('app.home', {
         url: '/home'
     });
-    $stateProvider.state('app.imprint', {
-        url: '/imprint'
-    });
     }
 ]);
 
