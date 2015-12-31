@@ -851,16 +851,16 @@
 		}
 
 		&.special {
-			background-color: _palette(fg-bold);
+			background-color: #1d3050;
 			box-shadow: none !important;
 			color: _palette(bg) !important;
 
 			&:hover {
-				background-color: lighten(_palette(fg-bold), 5);
+				background-color: lighten(#1d3050, 5);
 			}
 
 			&:active {
-				background-color: darken(_palette(fg-bold), 5);
+				background-color: darken(#1d3050, 5);
 			}
 		}
 
