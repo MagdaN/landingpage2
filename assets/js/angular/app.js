@@ -6,7 +6,7 @@ var app = angular.module('app', [
 
 app.config(function ($translateProvider) {
         $translateProvider.useStaticFilesLoader({
-                prefix: '/assets/js/angular/translations/core_',
+                prefix: 'assets/js/angular/translations/core_',
                 suffix: '.json'
         });
         $translateProvider.useSanitizeValueStrategy('escape');
