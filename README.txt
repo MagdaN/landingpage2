@@ -20,6 +20,9 @@ n33.co @n33co dribbble.com/n33
 
 Credits:
 
+	Images and Icons of byCoKit
+	ownership of the byCoKit-Team
+
 	Demo Images:
 		Unsplash (unsplash.com)
 
