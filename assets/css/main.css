@@ -2323,6 +2323,15 @@ body.is-loading #header:after {
   /* Main */
   .main {
     padding: 5em 3em 3em 3em ; }
+    .main.styleC {
+      background-attachment: fixed, scroll;
+      background-image: none;
+      background-size: auto, cover;
+      background-color: #e2edf2; }
+    .main.styleB {
+      background-attachment: fixed, scroll;
+      background-image: none;
+      background-size: auto, cover; }
 
   /* Header */
   #header {

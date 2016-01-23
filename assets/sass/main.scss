@@ -997,7 +997,8 @@
 			background-size:		auto,							cover;
 		}
 
-	}
+
+}
 
 /* Header */
 
@@ -1250,6 +1251,18 @@
 
 			.main {
 				@include padding(5em, 3em);
+				&.styleC {
+            		background-attachment: fixed, scroll;
+            		background-image: none;
+            		background-size: auto, cover;
+            		background-color: #e2edf2;
+        		}
+
+        		&.styleB {
+            		background-attachment: fixed, scroll;
+            		background-image: none;
+            		background-size: auto, cover;
+        		}
 			}
 
 		/* Header */
